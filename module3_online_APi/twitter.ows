@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="Twitter" position="(118.0, 553.0)" project_name="Orange3-Text" qualified_name="orangecontrib.text.widgets.owtwitter.OWTwitter" title="Twitter" version="" />
+		<node id="1" name="Preprocess Text" position="(235.0, 544.0)" project_name="Orange3-Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" title="Preprocess Text" version="" />
+		<node id="2" name="Topic Modelling" position="(359.0, 551.0)" project_name="Orange3-Text" qualified_name="orangecontrib.text.widgets.owtopicmodeling.OWTopicModeling" title="Topic Modelling" version="" />
+		<node id="3" name="Distances" position="(593.0, 543.0)" project_name="Orange3" qualified_name="Orange.widgets.unsupervised.owdistances.OWDistances" title="Distances (1)" version="" />
+		<node id="4" name="Hierarchical Clustering" position="(756.0, 543.0)" project_name="Orange3" qualified_name="Orange.widgets.unsupervised.owhierarchicalclustering.OWHierarchicalClustering" title="Hierarchical Clustering (1)" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Corpus" sink_node_id="1" source_channel="Corpus" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Corpus" sink_node_id="2" source_channel="Corpus" source_node_id="1" />
+		<link enabled="true" id="2" sink_channel="Distances" sink_node_id="4" source_channel="Distances" source_node_id="3" />
+		<link enabled="true" id="3" sink_channel="Data" sink_node_id="3" source_channel="Corpus" source_node_id="2" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'allow_retweets': False, 'collecting': False, 'controlAreaVisible': True, 'language': None, 'limited_search': True, 'max_tweets': 100, 'mode': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02v\x00\x00\x00\xe3\x00\x00\x04\x06\x00\x00\x02\xd2\x00\x00\x02v\x00\x00\x00\xf9\x00\x00\x04\x06\x00\x00\x02\xd2\x00\x00\x00\x00\x00\x00\x00\x00\x06\x90', 'text_includes': ['Content'], 'word_list': ['Hillary Clinton', 'Donald Trump'], '__version__': 1}</properties>
+		<properties format="literal" node_id="1">{'autocommit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02\x88\x00\x00\x00\xb8\x00\x00\x06\x13\x00\x00\x03/\x00\x00\x02\x88\x00\x00\x00\xce\x00\x00\x06\x13\x00\x00\x03/\x00\x00\x00\x00\x00\x00\x00\x00\x06\x90', 'filters': {'checked': [0], 'enabled': True, 'keep_n': 100, 'max_df': 0.9, 'min_df': 0.1, 'pattern': '\\.|,|:|;|!|\\?|\\(|\\)|\\||\\+|\'|"|‘|’|“|”|\'|\\’|…|\\-|–|—|\\$|&amp;|\\*|&gt;|&lt;|\\/|\\[|\\]', 'recent_lexicon_files': ['(none)'], 'recent_sw_files': ['/Users/alfred/Documents/Training/Text Mining with Orange/module2_text_processing/stopwords.txt', '(none)'], 'stopwords_language': 'English', 'use_df': False, 'use_keep_n': False}, 'ngrams_range': {'enabled': False, 'ngrams_range': (1, 2)}, 'normalizer': {'enabled': False, 'method_index': 0, 'snowball_language': 'English', 'udpipe_language': 'English', 'udpipe_tokenizer': False}, 'pos_tagger': {'enabled': False, 'method_index': 0, 'stanford': {'recent_files': ['(none)'], 'resource_path': ''}}, 'tokenizer': {'enabled': True, 'method_index': 3, 'pattern': '\\w+'}, 'transformers': {'checked': [0], 'enabled': True}, '__version__': 1}</properties>
+		<properties format="literal" node_id="2">{'autocommit': True, 'controlAreaVisible': True, 'method_index': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x01E\x00\x00\x01*\x00\x00\x056\x00\x00\x02\x8c\x00\x00\x01E\x00\x00\x01@\x00\x00\x056\x00\x00\x02\x8c\x00\x00\x00\x00\x00\x00\x00\x00\x06\x90', 'hdp': {'K': 15, 'T': 150, 'alpha': 1, 'eta': 0.01, 'gamma': 1, 'kappa': 1, 'tau': 64}, 'lda': {'num_topics': 10}, 'lsi': {'num_topics': 10}, '__version__': 1, 'context_settings': []}</properties>
+		<properties format="literal" node_id="3">{'autocommit': True, 'axis': 0, 'controlAreaVisible': True, 'metric_idx': 3, 'normalized_dist': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02\xce\x00\x00\x01Z\x00\x00\x03\xae\x00\x00\x02\\\x00\x00\x02\xce\x00\x00\x01p\x00\x00\x03\xae\x00\x00\x02\\\x00\x00\x00\x00\x00\x00\x00\x00\x06\x90', '__version__': 2}</properties>
+		<properties format="pickle" node_id="4">gAN9cQAoWBcAAABhbm5vdGF0aW9uX2lmX2VudW1lcmF0ZXEBWAsAAABFbnVtZXJhdGlvbnECWBMA
+AABhbm5vdGF0aW9uX2lmX25hbWVzcQNYBAAAAE5hbWVxBFgPAAAAYXBwZW5kX2NsdXN0ZXJzcQWI
+WAoAAABhdXRvY29tbWl0cQaIWAwAAABjbHVzdGVyX25hbWVxB1gHAAAAQ2x1c3RlcnEIWAwAAABj
+bHVzdGVyX3JvbGVxCUsCWBIAAABjb250cm9sQXJlYVZpc2libGVxCohYCQAAAGN1dF9yYXRpb3EL
+Y251bXB5LmNvcmUubXVsdGlhcnJheQpzY2FsYXIKcQxjbnVtcHkKZHR5cGUKcQ1YAgAAAGY4cQ5L
+AEsBh3EPUnEQKEsDWAEAAAA8cRFOTk5K/////0r/////SwB0cRJiQwh/vEn61qpWQHEThnEUUnEV
+WAcAAABsaW5rYWdlcRZLAVgJAAAAbWF4X2RlcHRocRdLClgHAAAAcHJ1bmluZ3EYSwBYEwAAAHNh
+dmVkV2lkZ2V0R2VvbWV0cnlxGUMyAdnQywACAAAAAAK3AAAARAAABowAAAPUAAACtwAAAFoAAAaM
+AAAD1AAAAAAAAAAABpBxGlgQAAAAc2VsZWN0aW9uX21ldGhvZHEbSwFYBQAAAHRvcF9ucRxLA1gL
+AAAAem9vbV9mYWN0b3JxHUr+////WAsAAABfX3ZlcnNpb25fX3EeSwFYFAAAAF9fc2Vzc2lvbl9z
+dGF0ZV9kYXRhcR99cSBYBwAAAHZlcnNpb25xIUsASwBLAIdxInNYEAAAAGNvbnRleHRfc2V0dGlu
+Z3NxI11xJChjT3JhbmdlLndpZGdldHMuc2V0dGluZ3MKQ29udGV4dApxJSmBcSZ9cScoWAQAAAB0
+aW1lcShHQdcjNxA63spYBgAAAHZhbHVlc3EpfXEqKFgKAAAAYW5ub3RhdGlvbnErWAcAAABDb250
+ZW50cSxLZ4ZxLWgeSwF1WAoAAABhdHRyaWJ1dGVzcS59cS8oWAcAAABUb3BpYyAxcTBLAlgHAAAA
+VG9waWMgMnExSwJYBwAAAFRvcGljIDNxMksCWAcAAABUb3BpYyA0cTNLAlgHAAAAVG9waWMgNXE0
+SwJYBwAAAFRvcGljIDZxNUsCWAcAAABUb3BpYyA3cTZLAlgHAAAAVG9waWMgOHE3SwJYBwAAAFRv
+cGljIDlxOEsCWAgAAABUb3BpYyAxMHE5SwJYBgAAAEF1dGhvcnE6SwF1WAUAAABtZXRhc3E7fXE8
+KGgsSwNYBAAAAERhdGVxPUsEWAgAAABMYW5ndWFnZXE+SwFYCAAAAExvY2F0aW9ucT9LAVgPAAAA
+TnVtYmVyIG9mIExpa2VzcUBLAlgSAAAATnVtYmVyIG9mIFJldHdlZXRzcUFLAlgLAAAASW4gUmVw
+bHkgVG9xQksBWAsAAABBdXRob3IgTmFtZXFDSwFYEgAAAEF1dGhvciBEZXNjcmlwdGlvbnFESwNY
+FQAAAEF1dGhvciBTdGF0dXNlcyBDb3VudHFFSwJYFwAAAEF1dGhvciBGYXZvdXJpdGVzIENvdW50
+cUZLAlgUAAAAQXV0aG9yIEZyaWVuZHMgQ291bnRxR0sCWBYAAABBdXRob3IgRm9sbG93ZXJzIENv
+dW50cUhLAlgTAAAAQXV0aG9yIExpc3RlZCBDb3VudHFJSwJYDwAAAEF1dGhvciBWZXJpZmllZHFK
+SwFYCQAAAExvbmdpdHVkZXFLSwJYCAAAAExhdGl0dWRlcUxLAnV1YmglKYFxTX1xTihoKEdB1yM2
+/jhNHmgpfXFPKGgraDpLZYZxUGgeSwF1aC59cVEoWAcAAABUb3BpYyAxcVJLAmg9SwRYBwAAAFRv
+cGljIDJxU0sCWAcAAABUb3BpYyAzcVRLAlgHAAAAVG9waWMgNHFVSwJYBwAAAFRvcGljIDVxVksC
+WAcAAABUb3BpYyA2cVdLAlgHAAAAVG9waWMgN3FYSwJYBwAAAFRvcGljIDhxWUsCWAcAAABUb3Bp
+YyA5cVpLAlgIAAAAVG9waWMgMTBxW0sCaDpLAXVoO31xXChoLEsDaD5LAWg/SwFoQEsCaEFLAmhC
+SwFoQ0sBaERLA2hFSwJoRksCaEdLAmhISwJoSUsCaEpLAWhLSwJoTEsCdXViZXUu
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="Corpus Viewer" position="(326.0, 375.0)" project_name="Orange3-Text" qualified_name="orangecontrib.text.widgets.owcorpusviewer.OWCorpusViewer" title="Corpus Viewer" version="" />
+		<node id="1" name="Import Documents" position="(63.0, 375.0)" project_name="Orange3-Text" qualified_name="orangecontrib.text.widgets.owimportdocuments.OWImportDocuments" title="Import Documents" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Corpus" sink_node_id="0" source_channel="Corpus" source_node_id="1" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="pickle" node_id="0">gAN9cQAoWAoAAABhdXRvY29tbWl0cQGIWBIAAABjb250cm9sQXJlYVZpc2libGVxAohYEwAAAHNh
+dmVkV2lkZ2V0R2VvbWV0cnlxA0MyAdnQywACAAAAAAGGAAAAjAAABeUAAAMzAAABhgAAAKIAAAXl
+AAADMwAAAAAAAAAABpBxBFgLAAAAc2hvd190b2tlbnNxBYlYCwAAAF9fdmVyc2lvbl9fcQZLAVgQ
+AAAAY29udGV4dF9zZXR0aW5nc3EHXXEIY09yYW5nZS53aWRnZXRzLnNldHRpbmdzCkNvbnRleHQK
+cQkpgXEKfXELKFgEAAAAdGltZXEMR0HXIyGtab6+WAYAAAB2YWx1ZXNxDX1xDihYEAAAAGRpc3Bs
+YXlfZmVhdHVyZXNxD11xEChjT3JhbmdlLmRhdGEudmFyaWFibGUKbWFrZV92YXJpYWJsZQpxEShj
+T3JhbmdlLmRhdGEudmFyaWFibGUKRGlzY3JldGVWYXJpYWJsZQpxEk5YCQAAAEFUVSBUb3BpY3ET
+XXEUKFgMAAAAQW5pbWFsIFRhbGVzcRVYDgAAAFRhbGVzIG9mIE1hZ2ljcRZliUr/////dHEXUnEY
+fXEZKFgEAAAAbmFtZXEaaBNYDgAAAF9jb21wdXRlX3ZhbHVlcRtOWAsAAAB1bmtub3duX3N0cnEc
+Y2J1aWx0aW5zCnNldApxHV1xHihHf/gAAAAAAABYAAAAAHEfWAIAAABOQXEgWAEAAAA/cSFYAQAA
+AC5xIlgBAAAAfnEjTlgDAAAAbmFucSRlhXElUnEmWA8AAABzb3VyY2VfdmFyaWFibGVxJ05YBgAA
+AHNwYXJzZXEoiVgKAAAAYXR0cmlidXRlc3EpfXEqWAcAAABfY29sb3JzcStjbnVtcHkuY29yZS5t
+dWx0aWFycmF5Cl9yZWNvbnN0cnVjdApxLGNudW1weQpuZGFycmF5CnEtSwCFcS5DAWJxL4dxMFJx
+MShLAUsCSwOGcTJjbnVtcHkKZHR5cGUKcTNYAgAAAHUxcTRLAEsBh3E1UnE2KEsDWAEAAAB8cTdO
+Tk5K/////0r/////SwB0cThiiUMGRr767UYvcTl0cTpiWAcAAABvcmRlcmVkcTuJWAoAAABiYXNl
+X3ZhbHVlcTxK/////3ViaBFjT3JhbmdlLmRhdGEudmFyaWFibGUKU3RyaW5nVmFyaWFibGUKcT1O
+WAUAAABUaXRsZXE+h3E/UnFAfXFBKGgaaD5oG05oHGgmaCdOaCiJaCl9cUJoK051YmgRaD1OWAgA
+AABBYnN0cmFjdHFDh3FEUnFFfXFGKGgaaENoG05oHGgmaCdOaCiJaCl9cUdoK051YmgRaD1OWAcA
+AABDb250ZW50cUiHcUlScUp9cUsoaBpoSGgbTmgcaCZoJ05oKIloKX1xTFgHAAAAaW5jbHVkZXFN
+WAQAAABUcnVlcU5zaCtOdWJoEWg9TlgNAAAAQVRVIE51bWVyaWNhbHFPh3FQUnFRfXFSKGgaaE9o
+G05oHGgmaCdOaCiJaCl9cVNoK051YmgRKGgSTlgIAAAAQVRVIFR5cGVxVF1xVShYEAAAAERvbWVz
+dGljIEFuaW1hbHNxVlgZAAAAT3RoZXIgQW5pbWFscyBhbmQgT2JqZWN0c3FXWB8AAABPdGhlciBU
+YWxlcyBvZiB0aGUgU3VwZXJuYXR1cmFscVhYGAAAAFN1cGVybmF0dXJhbCBBZHZlcnNhcmllc3FZ
+WBQAAABTdXBlcm5hdHVyYWwgSGVscGVyc3FaWCAAAABTdXBlcm5hdHVyYWwgUG93ZXJzIG9yIEtu
+b3dsZWRnZXFbWBIAAABTdXBlcm5hdHVyYWwgVGFza3NxXFgjAAAAU3VwZXJuYXR1cmFsIG9yIEVu
+Y2hhbnRlZCBSZWxhdGl2ZXNxXVggAAAAV2lsZCBBbmltYWwgYW5kIERvbWVzdGljIEFuaW1hbHNx
+XlgMAAAAV2lsZCBBbmltYWxzcV9YFwAAAFdpbGQgQW5pbWFscyBhbmQgSHVtYW5zcWBliUr/////
+dHFhUnFifXFjKGgaaFRoG05oHGgmaCdOaCiJaCl9cWRoK05oO4loPEr/////dWJlWA8AAABkaXNw
+bGF5X2luZGljZXNxZV1xZihLAEsBSwJLA0sESwVlWA0AAAByZWdleHBfZmlsdGVycWdoH0r/////
+hnFoWA4AAABzZWFyY2hfaW5kaWNlc3FpXXFqKEsASwFLAksDSwRLBWVoBksBdWgpKVgFAAAAbWV0
+YXNxayhoPksDhnFsaENLA4ZxbWhISwOGcW5oT0sDhnFvaFRdcXAoaFZoV2hYaFloWmhbaFxoXWhe
+aF9oYGWGcXF0cXJYCgAAAGNsYXNzX3ZhcnNxc2gTXXF0KGgVaBZlhnF1hXF2dWJhdS4=
+</properties>
+		<properties format="literal" node_id="1">{'controlAreaVisible': True, 'currentPath': None, 'recent_paths': [], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02y\x00\x00\x01\x81\x00\x00\x04\x03\x00\x00\x025\x00\x00\x02y\x00\x00\x01\x97\x00\x00\x04\x03\x00\x00\x025\x00\x00\x00\x00\x00\x00\x00\x00\x06\x90', '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
